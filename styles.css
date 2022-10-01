@@ -424,7 +424,7 @@ a:visited {
 
 .bloqueInformacionAb {
     position: relative;
-    background: linear-gradient(rgba(58, 58, 58, 0.75), rgba(58, 58, 58, 0.75)), url("imagenes/block1.jpeg");
+    background: linear-gradient(rgba(58, 58, 58, 0.75), rgba(58, 58, 58, 0.75)), url("images/block1.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -693,7 +693,7 @@ a:visited {
 
 /*Bloque Aa*/
 .bloqueInformacionAa {
-    background: linear-gradient(rgba(58, 58, 58, 0.75), rgba(58, 58, 58, 0.75)), url(imagenes/IMG_1999.jpeg);
+    background: linear-gradient(rgba(58, 58, 58, 0.75), rgba(58, 58, 58, 0.75)), url(images/IMG_1999.jpeg);
     background-position-x: right;
     background-size: contain;
     background-repeat: no-repeat;
