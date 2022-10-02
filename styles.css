@@ -603,7 +603,7 @@ img.simbolo-logo {
     height: 50px;
     padding: 8px;
     border-radius: unset;
-    background-color: var(--secundario);
+    background-color: #FFF;
     opacity: 1;
     border: 1px solid #a27b59;
 }
