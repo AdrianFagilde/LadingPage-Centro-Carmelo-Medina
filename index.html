@@ -26,35 +26,64 @@
 <body>
 	<header class="barra_ampliada cabecera">
 		<nav class="navbar-fixed-top">
-			<img src="images/Forma_logotipo_cabecera.svg" alt="" class="forma_logo animation">
-			<div class="navbar-header">
-				<a href="#" class="navbar-toggle custom-button centrado collapsed left-toggle text-uppercase">
-					<span>
-						<img src="images/menu.svg" alt="">
-					</span>
-					Menú
+			<img src="images/Forma_logotipo_cabecera.svg" alt="" class="forma_logo animation hidden-md hidden-sm hidden-xs">
+			<div class="navbar-header animation">
+				<a href="#" class="navbar-toggle custom-button centrado animation collapsed left-toggle text-uppercase">
+					<span><img src="images/menu.svg" alt=""></span>
+					<span class="hidden-md hidden-sm hidden-xs">Menú</span>
 				</a>
 				<a class="navbar-brand" href="#">
-					<img src="images/Logotipo_horizontal.png" alt="logo">
+					<img class="animation visible-md visible-lg" src="images/Logotipo_horizontal.png" alt="logo">
+					<img class="hidden-md hidden-lg" src="images/Logotipo_vertical.png" alt="logo">
 				</a>
-				<a href="#" class="solicitar custom-button centrado absolute text-uppercase">
+				<a href="#" class="solicitar custom-button centrado animation absolute text-uppercase">
 					<span><img src="images/calendario.svg" alt=""></span>
-					Solicitar consulta
+					<span class="hidden-md hidden-sm hidden-xs">Solicitar consulta</span>
 				</a>
 			</div>
 		</nav>
 	</header>
-	<section class="bloqueInformacion bloqueInformacionAb">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 ">
-					<h2 class="subtitulo" style="color: white;">
-						Centro de Fisioterapia y Osteopadia
-					</h2>
-					<h1 class="titulo" style="font-size: 55px; color: white; filter: drop-shadow(0.618px 1.902px 1.5px rgba(0,0,0,0.75));">
-						Profesionalidad y cercanía
-					</p>
-				</div>
+	<section class="banner">
+		<div class="line line-white"></div>
+		<div class="line line-gold"></div>
+		<div id="banner-slider" class="splide">
+			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide">
+						<div class="slider full" style="background-image: url(images/block1.jpeg)">
+							<div class="opacidad full"></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8">
+										<div class="antetitulo">
+											Centro de Fisioterapia y Osteopatía
+										</div>
+										<h2 class="text-uppercase">
+											PROFESIONALIDAD Y CERCANÍA
+										</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="splide__slide">
+						<div class="slider full" style="background-image: url(images/105318955_106731551093143_3223978706513188396_n.jpeg)">
+							<div class="opacidad full"></div>
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8">
+										<div class="antetitulo">
+											Centro de Fisioterapia y Osteopatía
+										</div>
+										<h2 class="text-uppercase">
+											PROFESIONALIDAD Y CERCANÍA 2
+										</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section>
@@ -69,11 +98,7 @@
 						Centro de Fisioterapia y Osteopadia Carmelo Medina
 					</p>
 					<p class="parrafo">
-						Somos un centro de fisioterapia y osteopatía centrado en conseguir la máxima satisfacción de
-						nuestros clientes, adaptándonos individualmente y de manera especifica a las necesidades de cada
-						uno, buscando aliviar y recuperar tu dolencia a través de las diferentes técnicas que nos ofrece
-						la
-						fisioterapia y la osteopatía.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 					</p>
 				</div>
 
@@ -176,23 +201,20 @@
 			</div>
 		</div>
 	</section>
-	<section class="bloqueInformacion bloqueInformacionAd">
-		<!-- <img src="images/Forma_estilo_img.svg" class="forma_img"> -->
+	<section class="bloqueInformacion bloqueInformacionAd relative">
+		<img src="images/Forma_estilo_img.svg" class="forma_estilo">
 		<div class="container">
 			<div class="row">
-				
-				<div class="col-lg-5 col-md-12 div-img">
+				<div class="col-lg-6 div-img">
 					<img src="images/105411283_107878337645131_8283786369088846402_n.jpeg" alt="" id="img2">
 				</div>
-
-				<div class="col-lg-7 col-md-12 relative">
-					<p class="subtitulo text-responsive">
+				<div class="col-lg-6 relative">
+					<p class="subtitulo">
 						Centro de Fisioterapia y Osteopatía Carmelo Medina
 					</p>
-					<h2 class="titulo text-responsive">
+					<h2 class="titulo">
 						atención personalizada y especializada
 					</h2>
-					<br />
 					<p class="parrafo">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 						labore
@@ -207,12 +229,13 @@
 			</div>
 		</div>
 	</section>
-	<section class="bloqueInformacion bloqueInformacionAa">
-		<div class="two"></div>
-		<div class="one"></div>
-		<div class="container-fluid">
+	<section class="bloqueInformacion bloqueInformacionAa relative" style="background-image: url(images/IMG_1999.jpeg)">
+		<div class="opacidad full"></div>
+		<div class="two visible-md visible-lg"></div>
+		<div class="one visible-md visible-lg"></div>
+		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 b  col-md-5" id="contenido">
+				<div class="col-sm-12 col-md-5" id="contenido">
 					<h2 class="titulo" >
 						Profesionalidad y cercanía
 					</h2>
@@ -222,17 +245,16 @@
 						uno, buscando aliviar y recuperar tu dolencia a través de las diferentes técnicas que nos ofrece
 						la fisioterapia y la osteopatía.
 					</p>
-					<button class="btn btn-default">Solicitar Cita</button>
+					<a href="#" class="hover-effect custom-button centrado text-uppercase">
+						<span><img src="images/calendario.svg" alt=""></span>
+						Solicitar consulta
+					</a>
 				</div>
-				<div class="col-sm-0 col-md-7 img-container">
-					<img  src="images/Quiropractico-Especialista-en-Quiropraxia.png" alt="" class="img-mr visible-lg wow slideInUp"
-					data-wow-offset="900" data-wow-duration="1.5s"/>
-				</div>
-				
+				<img src="images/Quiropractico-Especialista-en-Quiropraxia.png" alt="" class="img-mr visible-md visible-lg"/>
 			</div>
 		</div>
 	</section>
-	<section class="novedades">
+	<section class="novedades relative">
 		<div class="container">
 			<div class="subtitulo">
 				Nuestras novedades
@@ -372,9 +394,13 @@
 			<img class="dropdown" src="images/drop-down-svgrepo-com.svg" alt="">
 	        <li><a class="text-uppercase text-center" href="#">Contacto</a></li>
 	    </ul>
+		<a href="#" class="solicitar custom-button centrado text-uppercase hidden-lg">
+			<span><img src="images/calendario.svg" alt=""></span>
+			Solicitar consulta
+		</a>
 	</div>
 		<div id="manto-movil">
-			<h2 class="titulo text-center">
+			<h2 class="titulo text-center visible-lg">
 				Centro de Fisioterapia y Osteopatía <span>Carmelo Medina</span>
 			</h2>
 			<a href="#" class="solicitar custom-button centrado text-uppercase">
