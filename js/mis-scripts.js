@@ -78,6 +78,19 @@ $('#manto-movil').on('click', function(e) {
 
 document.addEventListener( 'DOMContentLoaded', function () {
 	new WOW().init();
+
+    if ( $( "#banner-slider" ).length ) {
+        new Splide( '#banner-slider', {
+            autoplay: true,
+            interval: 5000,
+            type: "fade",
+            rewind: true,
+            perMove: 1,
+            perPage: 1,
+            pagination: false,
+            arrows: false,
+        } ).mount();
+    }
 	
     if ( $( "#img-slider" ).length ) {
         new Splide( '#img-slider', {
