@@ -18,13 +18,14 @@ a:visited {
     text-decoration: none;
 }
 
+
+
+/*******Global********/
 .full {
     position: absolute;
     width: 100%;
     height: 100%;
 }
-
-/*******Global********/
 .titulo {
     font-size: 45px;
     line-height: 50px;
@@ -316,12 +317,13 @@ a:visited {
     flex-direction: column;
     justify-content: start;
     padding-top: 200px;
+    padding-left: 376px;
     height: 100%;
     position: fixed;
     opacity: 0;
     right: 0;
     top: 0;
-    width: calc(100% - 376px);
+    width: 100%;
     z-index: -1;
 }
 
@@ -397,16 +399,17 @@ a:visited {
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 376px;
     justify-content:start;
     padding-top: 110px;
-    left: -10%;
+    left: -100%;
     margin-left: 0;
     opacity: 1;
     overflow-y: auto;
     position: fixed;
     right: 0%;
     top: 0;
-    width: 0;
+    /* width: 0; */
     z-index: 4;
 }
 
@@ -430,8 +433,8 @@ img.simbolo-logo {
     margin: 0 auto 15px;
 }
 
-.sidebar-logo {
-    margin-bottom: 50px;
+.sidebar-nav {
+    margin-top: 50px;
 }
 
 .sidebar-logo div {
@@ -475,17 +478,6 @@ img.simbolo-logo {
     text-shadow: 0 0 5px;
 }
 
-.sidebar-wrapper .custom-button {
-    background-color: var(--secundario);
-    border-color: var(--secundario);
-    width: 80%;
-    height: 97px;
-    border-radius: 5px;
-    font-size: 18px;
-    color: #f5f7f7;
-    margin-top: 40px;
-    text-align: center;
-}
 
 @media (max-width: 1300px) {
     .cabecera .navbar-header {
@@ -506,10 +498,6 @@ img.simbolo-logo {
 
     .cabecera .navbar-toggle {
         position: absolute;
-    }
-
-    .cabecera .left-toggle {
-        /* left: 0; */
     }
 
     .cabecera .right-toggle {
@@ -549,9 +537,7 @@ img.simbolo-logo {
 }
 
 @media (max-width: 767px) {
-    #menu-lateral.toggled .cabecera~.sidebar-wrapper {
-        width: 300px;
-    }
+
 
     #manto-movil {
         width: 100%;
@@ -648,6 +634,8 @@ img.simbolo-logo {
     align-self: center;
 }
 #bloqueInformacionAd1{
+    margin-top: 30px;
+    margin-bottom: 30px;
     height: 600px;
 }
 #bloqueInformacionAd2{
@@ -857,7 +845,6 @@ img.simbolo-logo {
 /*Bloque Aa*/
 .bloqueInformacionAa {
     background-position-x: right;
-    margin-top: 180px;
     padding-bottom: 150px;
     padding-top: 150px;
 }
@@ -1090,7 +1077,7 @@ footer .footer__img {
 
 footer .vl {
     background-color: #ad8f70;
-    height: 120px;
+    height: 130px;
     border-left: 1px solid #ad8f70;
     opacity: 0.7;
 }
@@ -1148,10 +1135,6 @@ footer .footer-final a:hover {
 
     .cabecera.barra_ampliada .navbar-brand>img {
         height: 70px;
-    }
-
-    .cabecera .left-toggle {
-        left: 10px;
     }
 
     .cabecera .solicitar {
@@ -1250,7 +1233,7 @@ footer .footer-final a:hover {
     }
 
     .bloqueInformacionAd #img2 {
-        height: 340px;
+        height: 300px;
         margin-bottom: 30px;
         width: 340px;
     }
@@ -1343,7 +1326,6 @@ footer .footer-final a:hover {
     }
 
     .bloqueInformacionAa {
-        margin-top: 70px;
         padding-top: 70px;
         padding-bottom: 70px;
     }
@@ -1356,8 +1338,10 @@ footer .footer-final a:hover {
     /* ******************* */
     /* bloqueInformacionAd */
     /* ******************* */
-    .bloqueInformacionAd {
-   
+    #bloqueInformacionAd2{
+        height: 700px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .bloqueInformacionAd .div-img {
@@ -1367,7 +1351,8 @@ footer .footer-final a:hover {
 
     .bloqueInformacionAd #img1,
     .bloqueInformacionAd #img2 {
-        width: 60%;
+        width: 230px;
+        height: 200px;
     }
 
     /* ********* */
@@ -1428,11 +1413,28 @@ footer .footer-final a:hover {
         padding: 0 20px;
     }
 
+    footer .info__content a {
+       text-align:center;
+    }
+    footer .info__content>ul>li>a>span>img{
+        margin-left: auto;
+        margin-right: 2px;
+        float: left;
+    }
+    footer .info__content a span{
+        margin-right: 0;
+        align-self:stretch;
+        
+    }
+
     footer .links>a {
         font-size: 13px;
     }
 
     footer .footer-final {
         padding: 10px 15px;
+    }
+    .sidebar-wrapper {
+        width: 320px;
     }
 }
