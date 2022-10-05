@@ -31,7 +31,7 @@ a:visited {
     color: var(--primario);
     font-weight: bold;
     font-family: "Montserrat";
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .subtitulo {
@@ -373,9 +373,10 @@ a:visited {
     object-fit: cover;
     width: 22px;
 }
-#manto-movil .enlaces .facebook,.instagram {
+#manto-movil .enlaces .facebook,
+#manto-movil .enlaces .instagram {
     background-color: #a27b59;
-    padding: 3px 3px 3px 3px;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -1215,6 +1216,8 @@ footer .footer-final a:hover {
         font-size: 50px;
     }
 
+    
+
     /* ******************* */
     /* bloqueInformacionAa */
     /* ******************* */
@@ -1316,7 +1319,11 @@ footer .footer-final a:hover {
     /* ****** */
     /* Banner */
     /* ****** */
+    
     .banner .splide__slide {
+        height: 600px;
+    }
+    .banner #banner-slider{
         height: 600px;
     }
 
@@ -1329,10 +1336,10 @@ footer .footer-final a:hover {
         text-align: center;
     }
     .line{
-        bottom: 180px;
+        bottom: 20px;
     }
     .line-white{
-        bottom: 179px;
+        bottom: 10px;
     }
 
     .bloqueInformacionAa {
@@ -1350,7 +1357,7 @@ footer .footer-final a:hover {
     /* bloqueInformacionAd */
     /* ******************* */
     .bloqueInformacionAd {
-        margin-top: 70px;
+   
     }
 
     .bloqueInformacionAd .div-img {
