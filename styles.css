@@ -8,7 +8,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    }
+}
 
 a,
 a:active,
@@ -17,8 +17,6 @@ a:focus,
 a:visited {
     text-decoration: none;
 }
-
-
 
 /*******Global********/
 .full {
@@ -260,7 +258,6 @@ a:visited {
     width: 150px;
 }
 
-
 .cabecera .navbar-toggle.custom-button>span>img {
     width: 35px;
 }
@@ -286,28 +283,6 @@ a:visited {
 .cabecera .solicitar {
     right: 20px;
     width: 364px;
-}
-
-@media (max-width:1440px) {
-    .cabecera.barra_ampliada .forma_logo {
-        height: 120px;
-    }
-
-    .cabecera .navbar-brand>img{
-        height: 60px;
-    }
-
-    .cabecera .navbar-toggle{
-        width: 100px;
-    }
-
-    .cabecera .navbar-toggle.custom-button>span>img {
-        width: 22px;
-    }
-
-    .cabecera .solicitar{
-        width: 250px;
-    }
 }
 
 #manto-movil {
@@ -409,12 +384,10 @@ a:visited {
     position: fixed;
     right: 0%;
     top: 0;
-    /* width: 0; */
     z-index: 4;
 }
 
 .toggled .sidebar-wrapper {
-    width: 376px;
     left: 0;
 }
 
@@ -476,72 +449,6 @@ img.simbolo-logo {
 .sidebar-wrapper .sidebar-nav li.active a,
 .sidebar-wrapper .sidebar-nav li a:hover {
     text-shadow: 0 0 5px;
-}
-
-
-@media (max-width: 1300px) {
-    .cabecera .navbar-header {
-        position: relative;
-        float: none;
-    }
-
-    .cabecera .navbar-toggle {
-        display: block;
-        margin: 0;
-        border-radius: 0;
-    }
-
-    .cabecera .navbar-toggle:focus,
-    .cabecera .navbar-toggle:hover {
-        background-color: #fff;
-    }
-
-    .cabecera .navbar-toggle {
-        position: absolute;
-    }
-
-    .cabecera .right-toggle {
-        right: 0;
-    }
-
-    .toggled .cabecera .right-toggle:focus,
-    .toggled .cabecera .right-toggle:hover,
-    .toggled .cabecera .right-toggle,
-    .toggled .cabecera .left-toggle:focus,
-    .toggled .cabecera .left-toggle:hover,
-    .toggled .cabecera .left-toggle {
-        background-color: var(--primario);
-    }
-
-    .cabecera .navbar-toggle .icon-bar {
-        background-color: var(--primario);
-    }
-
-    .toggled .cabecera .navbar-toggle .icon-bar {
-        background-color: #fff;
-    }
-
-    .cabecera .navbar-collapse.collapse {
-        display: none !important;
-    }
-
-    .cabecera .navbar-nav>li {
-        float: none;
-    }
-    .cabecera .solicitar{
-        width: 200px;
-    }
-    .forma_logo{
-        height:120px;
-    }
-}
-
-@media (max-width: 767px) {
-
-
-    #manto-movil {
-        width: 100%;
-    }
 }
 
 /* ****** */
@@ -832,16 +739,6 @@ img.simbolo-logo {
     color: var(--primario);
 }
 
-@media (max-width: 1350px) {
-    .serviciosAb .servicios-prev {
-        left: calc(-15vw + 15%);
-    }
-
-    .serviciosAb .servicios-next {
-        right: calc(-15vw + 15%);
-    }
-}
-
 /*Bloque Aa*/
 .bloqueInformacionAa {
     background-position-x: right;
@@ -1127,6 +1024,97 @@ footer .footer-final a:hover {
     text-shadow: 0 0 2px;
 }
 
+
+@media (max-width:1440px) {
+    .cabecera.barra_ampliada .forma_logo {
+        height: 120px;
+    }
+
+    .cabecera .navbar-brand>img{
+        height: 60px;
+    }
+
+    .cabecera .navbar-toggle{
+        width: 100px;
+    }
+
+    .cabecera .navbar-toggle.custom-button>span>img {
+        width: 22px;
+    }
+
+    .cabecera .solicitar{
+        width: 250px;
+    }
+}
+
+
+@media (max-width: 1350px) {
+    .serviciosAb .servicios-prev {
+        left: calc(-15vw + 15%);
+    }
+
+    .serviciosAb .servicios-next {
+        right: calc(-15vw + 15%);
+    }
+}
+
+@media (max-width: 1300px) {
+    .cabecera .navbar-header {
+        position: relative;
+        float: none;
+    }
+
+    .cabecera .navbar-toggle {
+        display: block;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .cabecera .navbar-toggle:focus,
+    .cabecera .navbar-toggle:hover {
+        background-color: var(--primario);
+    }
+
+    .cabecera .navbar-toggle {
+        position: absolute;
+    }
+
+    .cabecera .right-toggle {
+        right: 0;
+    }
+
+    .toggled .cabecera .right-toggle:focus,
+    .toggled .cabecera .right-toggle:hover,
+    .toggled .cabecera .right-toggle,
+    .toggled .cabecera .left-toggle:focus,
+    .toggled .cabecera .left-toggle:hover,
+    .toggled .cabecera .left-toggle {
+        background-color: var(--primario);
+    }
+
+    .cabecera .navbar-toggle .icon-bar {
+        background-color: var(--primario);
+    }
+
+    .toggled .cabecera .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .cabecera .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .cabecera .navbar-nav>li {
+        float: none;
+    }
+    .cabecera .solicitar{
+        width: 200px;
+    }
+    .forma_logo{
+        height:120px;
+    }
+}
+
 @media (max-width: 1200px) {
     .bloqueInformacionAa .img-mr{
         width: 651px;
@@ -1260,6 +1248,12 @@ footer .footer-final a:hover {
 
     footer .info__content>ul:last-child {
         flex-flow: row;
+    }
+}
+
+@media (max-width: 767px) {
+    #manto-movil {
+        width: 100%;
     }
 }
 
@@ -1414,7 +1408,7 @@ footer .footer-final a:hover {
     }
 
     footer .info__content a {
-       text-align:center;
+        text-align:center;
     }
     footer .info__content>ul>li>a>span>img{
         margin-left: auto;
