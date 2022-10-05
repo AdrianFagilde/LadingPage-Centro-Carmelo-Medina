@@ -371,11 +371,11 @@ a:visited {
 
 #manto-movil .enlaces img {
     object-fit: cover;
-    width: 25px;
+    width: 22px;
 }
 #manto-movil .enlaces .facebook,.instagram {
     background-color: #a27b59;
-    padding: 2px 2px 2px 2px;
+    padding: 3px 3px 3px 3px;
     border-radius: 5px;
 }
 
@@ -456,7 +456,7 @@ img.simbolo-logo {
     width: 100%;
     height: 100%;
     background-color: #013830;
-    clip-path: polygon(0 0, 0 43%, 90% 0);
+    clip-path: polygon(0 0, 0 43%, 98% 0);
 }
 
 .sidebar-wrapper  .forma-2 {
@@ -466,7 +466,7 @@ img.simbolo-logo {
     top: 0;
     right: 0;
     background-color: #01352d;
-    clip-path: polygon(100% 0, 66% 0, 100% 10%);
+    clip-path: polygon(100% 0, 66% 0, 100% 18%);
 }
 
 .sidebar-wrapper .sidebar-nav li.active a,
@@ -676,7 +676,6 @@ img.simbolo-logo {
     height: 575px;
     width: 42%;
     object-position: right;
-
     transform: translateY(-50%);
     top: 50%;
 
@@ -1070,12 +1069,16 @@ footer .info__content>ul>li>a>span>img {
 }
 footer .info__content #facebook{
     background-color: #a27b59;
-    padding: 2px 2px 2px 2px;
+    width: 22px;
+    height: 22px;
+    padding: 3px 3px 3px 3px;
     border-radius: 5px;
 }
 footer .info__content #instagram{
     background-color: #a27b59;
-    padding: 2px 2px 2px 2px;
+    width: 22px;
+    height: 22px;
+    padding: 3px 3px 3px 3px;
     border-radius: 5px;
 }
 
@@ -1086,7 +1089,7 @@ footer .footer__img {
 
 footer .vl {
     background-color: #ad8f70;
-    height: 165px;
+    height: 120px;
     border-left: 1px solid #ad8f70;
     opacity: 0.7;
 }
@@ -1100,6 +1103,7 @@ footer .links {
     color: #fff;
     font-weight: 300;
     padding: 15px;
+    padding-bottom: 90px;
 }
 
 footer .links>a {
